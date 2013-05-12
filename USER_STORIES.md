@@ -1,4 +1,4 @@
-<h1>User Stories for DeadSets App</h2>
+<h1>User Stories for DeadSets App</h1>
 
 <p>As a fan of the Grateful Dead
 I want to find the setlist for a specific concert.
