@@ -9,18 +9,19 @@ or it might be one of my favorite Grateful Dead shows that I attended.
 -User is asked to enter a concert date
 -User enters date
 -App returns the set list info</p>
+<hr>
 
 <p>As a fan of the Grateful Dead
 I want to catalog my collection of bootleg concerts with the correct song info for each show</p>
-
+<hr>
 
 <p>As a fan of the Grateful Dead
 I want to make sure the show I have downloaded has all of the songs that were played at that show</p>
-
+<hr>
 
 <p>As a fan of the Grateful Dead
 I know a specific show's date and setlist, but I need to know the city, state and venue of the show</p>
-
+<hr>
 
 <p>As a fan of the Grateful Dead
 I want to share a setlist of a specific show with a friend or colleague
