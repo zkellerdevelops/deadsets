@@ -3,7 +3,7 @@
 <h2>Purpose</h2>
 
 <p>This is a Unix Command Line app I am building using Ruby for my capstone project for Nashville Software School.
-The purpose is to create a way for fans of the band the Grateful Dead to look up concert set lists from the band's long an illustrious career of live performances.</p>
+The purpose is to create a way for fans of the band the Grateful Dead to look up concert setlists from the band's long an illustrious career of live performances.</p>
 
 
 <h2>Project Status / To Do</h2>
@@ -37,4 +37,4 @@ Future functionality might include the ability to email specific set lists to th
 <h2>License</h2>
 
 <p>Copyright © 2013 Zach Keller
-All set lists, song titles, and anything having to do with the Grateful Dead are owned by Grateful Dead Productions (GDP)</p>
+All setlists, song titles, and anything having to do with the Grateful Dead are owned by Grateful Dead Productions (GDP)</p>
