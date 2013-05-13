@@ -36,5 +36,5 @@ Future functionality might include the ability to email specific set lists to th
 
 <h2>License</h2>
 
-<p>Copyright © 2013 Zach Keller
+<p>All code and logic, copyright © 2013 Zach Keller
 All setlists, song titles, and anything having to do with the Grateful Dead are owned by Grateful Dead Productions (GDP)</p>
