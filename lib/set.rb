@@ -1,4 +1,4 @@
-class Set
+class Setlist
   attr_accessor :show_date
 
   def initialize (show_date)
@@ -33,13 +33,16 @@ class Set
 
     show_text = open(set_url)
 
-    puts set_url
+    # puts set_url
+
+    puts "---------------------------------------------------------------------------"
 
     show_text.each_line do |line|
-    puts line
+      puts line
     end
-    rescue OpenURI::HTTPError => ex
-      puts "Not a valid show date. Please enter another."
+    puts "---------------------------------------------------------------------------"
+  rescue OpenURI::HTTPError => ex
+    puts "Not a valid Grateful Dead concert date. Please enter another."
   end
 
 
