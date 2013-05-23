@@ -7,16 +7,17 @@ connect_to database
 
 def get_request
   puts "WELCOME TO DEADSETS.\nPlease enter the date of a Grateful Dead concert using the MM-DD-YY format:"
+  puts "---------------------------------------------------------------------------"
 
   show = gets.chomp
-
 
   set = Setlist.new(show)
   set.print_url
 
-  puts "-Save this show to favorites? Type y"
+  puts "---------------------------------------------------------------------------"
   puts "-To access favorites, type f"
   puts "-Type q to quit Deadsets"
+  puts "-Press enter to look up another concert"
   puts "---------------------------------------------------------------------------"
 
   user_input = gets.chomp
@@ -49,10 +50,12 @@ def add_fav(date)
 end
 
 def access_favs
+  puts "---------------------------------------------------------------------------"
   favorites = Favorite.all
   favorites.each do |fav|
     puts fav.date
   end
+  puts "---------------------------------------------------------------------------"
 end
 
 get_request

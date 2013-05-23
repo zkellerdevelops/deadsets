@@ -33,16 +33,18 @@ class Setlist
 
     show_text = open(set_url)
 
-    # puts set_url
-
     puts "---------------------------------------------------------------------------"
 
     show_text.each_line do |line|
       puts line
     end
     puts "---------------------------------------------------------------------------"
+    puts "-Save this show to favorites? Type y"
+
   rescue OpenURI::HTTPError => ex
-    puts "Not a valid Grateful Dead concert date. Please enter another."
+    puts "---------------------------------------------------------------------------"
+    puts "This is not a valid Grateful Dead concert date.\nPlease enter a different date."
+    puts "---------------------------------------------------------------------------"
   end
 
 
