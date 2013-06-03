@@ -1,4 +1,7 @@
 <h1>NSS Ruby Capstone - DeadSets App</h1>
+[![Build Status](https://travis-ci.org/zkellerdevelops/deadsets.png)](https://travis-ci.org/zkellerdevelops/deadsets)
+
+[![Code Climate](https://codeclimate.com/github/zkellerdevelops/deadsets.png)](https://codeclimate.com/github/zkellerdevelops/deadsets)
 
 <h2>Purpose</h2>
 
@@ -7,7 +10,6 @@ The purpose is to create a way for fans of the band the Grateful Dead to look up
 
 
 <h2>Project Status / To Do</h2>
-[![Build Status](https://travis-ci.org/zkellerdevelops/deadsets.png)](https://travis-ci.org/zkellerdevelops/deadsets)
 
 <p>User entered dates are being parsed as url's and the corresponding setlist text is being printed to the terminal. Invalid conert dates raise an error message prompting the user to enter another date. Users can save a favorite show date to an SQL database, and recall those saved favorites dates for future reference.</p>
 
