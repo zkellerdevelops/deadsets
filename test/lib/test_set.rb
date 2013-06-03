@@ -1,5 +1,6 @@
 require 'test/unit'
-require_relative '../../lib/set.rb'
+require_relative '../../bootstrap_ar'
+
 
 class TestSet < Test::Unit::TestCase
   def test_1_set_url_is_correct

@@ -1,7 +1,5 @@
-require_relative 'lib/set.rb'
-require 'open-uri'
-
 require_relative 'bootstrap_ar'
+
 database = ENV['FP_ENV'] || 'development'
 connect_to database
 
