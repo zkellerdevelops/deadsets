@@ -2,9 +2,11 @@ require 'bundler'
 Bundler.setup
 require "rubygems"
 require "active_record"
+require 'open-uri'
 
 project_root = File.dirname(File.absolute_path(__FILE__))
 Dir.glob(project_root + "/models/*.rb").each{|f| require f}
+Dir.glob(project_root + "/lib/*.rb").each{|f| require f}
 
 def connect_to env
   connection_details = YAML::load(File.open('config/database.yml'))

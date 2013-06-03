@@ -29,8 +29,6 @@ class Setlist
   end
 
   def print_url
-    require 'open-uri'
-
     show_text = open(set_url)
 
     puts "---------------------------------------------------------------------------"
