@@ -1,5 +1,4 @@
 <h1>NSS Ruby Capstone - DeadSets App</h1>
-[![Build Status](https://travis-ci.org/zkellerdevelops/deadsets.png)](https://travis-ci.org/zkellerdevelops/deadsets)
 
 [![Code Climate](https://codeclimate.com/github/zkellerdevelops/deadsets.png)](https://codeclimate.com/github/zkellerdevelops/deadsets)
 
